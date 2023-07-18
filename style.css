@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(0, 0, 27);
+    font-family: 'Roboto', sans-serif;
+}
+
+.div_conteiner_principal {
+    background-color: rgb(6, 6, 34);
+    height: 100vh;
+    width: 100%;
+}
+
+.div_superior_principal {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(18, 18, 50);
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+.escolhas_superiores {
+    color: gray;
+    margin-left: 200px;
+}
+
+.div_primeira_acao_esqueda {
+    display: flex;
+    height: 120px;
+    width: 170px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 20px;
+    margin-left: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_engloba_acoes_superiores {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(6, 6, 34);
+    align-items: center;
+    justify-content: center;
+}
+
+.input_pesquisar_acao {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: rgb(74, 73, 73);
+    align-items: center;
+    margin-left: 100px;
+}
+
+.indicador_acao_selecionada {
+    display: flex;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_expecificacoes_da_acao {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);    
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.div_do_grafico {
+    display: flex;
+    height: 300px;
+    width: 900px;
+    background-color: rgb(27, 27, 27);
+    margin-left: 150px;
+}
+
+.Indicadores_da_acao{
+    color: rgb(219, 216, 216);
+    margin-left: 80px;
+}
+
+.indicacao_acao_selecionada {
+    margin-left: 10px;
+    color: rgb(219, 216, 216);
+}
+
+.indicador_acao_superior {
+    color: white;
+    margin-top: 10px;
+}

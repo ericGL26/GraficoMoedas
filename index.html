@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Actions/View</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="div_conteiner_principal">
+
+        <div class="div_superior_principal">
+            <img class="logo" src="imggraficocolor.png"/>
+            <input id="input_escolha_moeda" type="text" class="input_pesquisar_acao"/>
+            <h3 class="escolhas_superiores">Sobre</h3>
+            <h3 class="escolhas_superiores">Docs</h3>
+            <h3 class="escolhas_superiores">Contato</h3>
+        </div>
+
+        <div class="div_engloba_acoes_superiores">
+
+            <div class="div_primeira_acao_esqueda">
+                <h4 id="titulo_primeira_acao_superior" class="indicador_acao_superior">FNAM11</h4>
+                ..
+                <h4 id="preco_primeira_acao_superior" class="indicador_acao_superior">R$ 0,29</h4>
+            </div>
+            <div class="div_primeira_acao_esqueda">
+
+                <h4 id="titulo_segunda_acao_superior" class="indicador_acao_superior">FNAM11</h4>
+                <h2></h2>
+                <h4 id="preco_segunda_acao_superior" class="indicador_acao_superior">R$ 0,29</h4>
+
+            </div>
+            <div class="div_primeira_acao_esqueda">
+                <h4 id="titulo_terceira_acao_superior" class="indicador_acao_superior">FNAM11</h4>
+                ..
+                <h4 id="preco_terceira_acao_superior" class="indicador_acao_superior">R$ 0,29</h4>
+            </div>
+            <div class="div_primeira_acao_esqueda">
+                <h4 id="titulo_quarta_acao_superior" class="indicador_acao_superior">FNAM11</h4>
+                ..
+                <h4 id="preco_quarta_acao_superior" class="indicador_acao_superior">R$ 0,29</h4>
+            </div>
+            <div class="div_primeira_acao_esqueda">
+                <h4 id="titulo_quinta_acao_superior" class="indicador_acao_superior">FNAM11</h4>
+                <h4 id="preco_quinta_acao_superior" class="indicador_acao_superior">R$ 0,29</h4>
+            </div>
+            <div class="div_primeira_acao_esqueda">
+                <h4 id="titulo_sexta_acao_superior" class="indicador_acao_superior">FNAM11</h4>
+                <h4 id="preco_sexta_acao_superior" class="indicador_acao_superior">R$ 0,29</h4>
+            </div>
+
+
+        </div>
+
+        <div class="indicador_acao_selecionada">
+            <h2 id="Indicacao_acao_selecionada" class="indicacao_acao_selecionada">PETR4</h2>
+        </div>
+
+        <div class="div_expecificacoes_da_acao">
+
+            
+            <div>
+                <h2 class="Indicadores_da_acao">Preco</h2>
+                <h2 id="Preco_moeda" class="Indicadores_da_acao">23.98</h2>
+            </div>
+
+            <div>
+                <h2 class="Indicadores_da_acao">Sigla</h2>
+                <h2 id="moedaAtual" class="Indicadores_da_acao">0.23</h2>
+            </div>
+
+           <div>
+                <h2 class="Indicadores_da_acao">Baixa</h2>
+                <h2 id="indicadorMinimo" class="Indicadores_da_acao">20.77</h2>
+           </div>
+            
+           <div>
+                <h2 class="Indicadores_da_acao">Alta</h2>
+                <h2 id="indicadorMaximo" class="Indicadores_da_acao">38.39</h2>
+           </div>
+            
+            <div>
+                <h2 class="Indicadores_da_acao">Atualizado</h2>
+                <h2 id="dataAtualizacao" class="Indicadores_da_acao"></h2>
+            </div>
+
+
+
+        </div>
+
+        <div>
+            <canvas id="myChart" class="div_do_grafico"></canvas>
+        </div>
+
+    </div>
+</body>
+
+</html>
